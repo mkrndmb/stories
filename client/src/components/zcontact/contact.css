@@ -1,0 +1,36 @@
+
+
+.contact{
+    background-color: #f0eaea;
+    position: relative;
+    max-width: 1000px;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:150px;
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(./Wallmax-4389.jpg);
+  background-size: cover;
+}
+.headerTitle{
+    margin-top: -10px;
+}
+.subtitle{
+    font-size: var(--fz-heading);
+    font-weight: 700;
+    color: var(--lightest-slate);
+    margin-top: 10px;
+    
+}
+.susubtitle{
+    display: block;
+    text-align: center;
+    width: 60%;
+    font-size: var(--fz-md);
+    color: var(--light-slate);
+}
